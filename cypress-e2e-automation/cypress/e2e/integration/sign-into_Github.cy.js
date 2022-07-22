@@ -1,9 +1,4 @@
-context('first test', function(){
-    specify('greeting', function(){
-        cy.visit('https://www.google.com/')
-        cy.get('.gLFyf').type('Michael Jordan{enter}')
-    })
-})
+/// <reference type="cypress" >
 
 context('Github login', function(){
     specify('SIGN IN', function(){
